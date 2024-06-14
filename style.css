@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+table, th, td {
+    border: 1px solid black;
+}
+table{
+    font-size: 3.2rem;
+
+}
+thead tr:first-child{
+    background-color: cadetblue;
+    color: mediumvioletred;
+}
+tr:nth-child(2n + 1){
+    background-color: lightcoral;
+}
+tr:nth-child(2n + 2){
+    background-color: cornsilk;
+}
+.box{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
